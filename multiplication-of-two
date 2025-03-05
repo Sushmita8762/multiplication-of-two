@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+  int num1, num2,mult;
+num1=4;
+num2=3;
+mult = num1*num2;
+  printf("%d*%d=%d",num1,num2,mult);
+  return 0;
+  }
+//multiplication of two number scan the value
+# include<stdio.h>
+int main ()
+{
+  int num1,num2,mult;
+  printf("enter the first number:");
+  scanf("%d",&num1);
+   printf("enter the second number:");
+  scanf("%d",&num2); 
+  mult=num1*num2;
+  printf("%d*%d=%d",num1,num2,mult);
+  return 0;
+  }
